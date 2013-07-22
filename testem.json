@@ -1,7 +1,11 @@
 {
+	"src_files": [
+        "hello.js",
+        "hello_spec.js"
+    ],
 	"launchers" : {
         "tap": {
-            "command": "node hello_spec.js",
+            "command": "node hello_spec.js -R tap",
             "protocol": "tap"
         }
     },
