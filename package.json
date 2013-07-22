@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {
     "tap": "~0.3.1",
-    "testem":"latest"
+    "testem":"latest",
+    "mocha":"latest"
   },
   "scripts": {
     "test": "node hello_spec.js"

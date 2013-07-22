@@ -5,7 +5,7 @@ node_js:
 
 src_files:
     - hello.js
-    - tests.js
+    - hello_spec.js
 
 launchers:
     CI:
