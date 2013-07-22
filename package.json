@@ -5,7 +5,8 @@
   "main": "hello.js",
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.3.1"
+    "tap": "~0.3.1",
+    "testem":"latest"
   },
   "scripts": {
     "test": "node hello_spec.js"

@@ -9,7 +9,7 @@ src_files:
 
 launchers:
     CI:
-        command: mocha --timeout 3000 tests.js -R tap
+        command: testem ci > tests.tap
         protocol: tap
 launch_in_ci:
     - CI
