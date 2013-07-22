@@ -1,0 +1,3 @@
+{
+    "launch_in_ci": [ "tap","PhantomJS" ]
+}
