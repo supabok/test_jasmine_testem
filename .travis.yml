@@ -1,14 +1,15 @@
 language: node_js
+
 node_js:
-	- "0.11"
+  - "0.11"
+
 src_files:
-	- hello.js
-	- tests.js
+    - hello.js
+    - tests.js
 
 launchers:
     CI:
-        command: mocha --timeout 3000 testsa.js -R tap
+        command: mocha --timeout 3000 tests.js -R tap
         protocol: tap
-
 launch_in_ci:
     - CI
