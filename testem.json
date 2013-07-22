@@ -5,7 +5,7 @@
     ],
 	"launchers" : {
         "tap": {
-            "command": "node hello_spec.js -R tap",
+            "command": "node hello_spec.js",
             "protocol": "tap"
         }
     },

@@ -8,7 +8,7 @@
     "tap": "~0.3.1"
   },
   "scripts": {
-   
+    "test": "node hello_spec.js"
   },
   "repository": "",
   "author": "",
