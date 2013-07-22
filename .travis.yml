@@ -9,7 +9,7 @@ src_files:
 
 launchers:
     CI:
-        command: node hello_spec.js -R tap
+        command: mocha --timeout 3000 hello_spec.js -R tap
         protocol: tap
 launch_in_ci:
     - CI
