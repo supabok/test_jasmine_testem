@@ -1,6 +1,6 @@
 "launchers": {
         "tap": {
-            "command": "node hello_spec.js",
+            "command": "node tests.js",
             "protocol": "tap"
         }
     },
