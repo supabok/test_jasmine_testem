@@ -1,14 +1,4 @@
 {
-	"src_files": [
-        "hello.js",
-        "hello_spec.js"
-    ],
-	"launchers" : {
-        "tap": {
-            "command": "node hello_spec.js",
-            "protocol": "tap"
-        }
-    },
-    "launch_in_dev": [ "tap" ],
-    "launch_in_ci": [ "tap","PhantomJS" ]
+    "test_page": "./src/test/index.html",
+    "launch_in_ci": ["PhantomJS"]
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util.random randomBelow" errors="0" tests="2" failures="0" time="0.01" timestamp="2013-07-23T09:06:08.899Z">
+  <testsuite name="util.random randomBelow" errors="0" tests="2" failures="0" time="0.01" timestamp="2013-07-24T08:41:42.628Z">
     
-      <testcase assertions="2" classname="util.random randomBelow" name="should multiply correctly" time="0.008">
+      <testcase assertions="2" classname="util.random randomBelow" name="should multiply correctly" time="0.006">
         
       </testcase>
     

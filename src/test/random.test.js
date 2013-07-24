@@ -22,8 +22,8 @@ describe('util.random', function () {
 describe('addition', function () {
     'use strict';
 
-    it('should return 4 when adding 2 and 2', function () {
-        expect(3 + 3).toBe(6);
+    it('should return 6 when adding 3 and 3', function () {
+        expect(3 + 2).toBe(6);
     });
 });
 

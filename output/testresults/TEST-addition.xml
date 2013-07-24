@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="addition" errors="0" tests="1" failures="1" time="0.002" timestamp="2013-07-23T09:06:08.902Z">
+  <testsuite name="addition" errors="0" tests="1" failures="0" time="0.001" timestamp="2013-07-24T08:41:42.630Z">
     
-      <testcase assertions="1" classname="addition" name="should return 4 when adding 2 and 2" time="0.001">
-        
-          <failure>Expected 5 to be 4.</failure>
+      <testcase assertions="1" classname="addition" name="should return 4 when adding 2 and 2" time="0">
         
       </testcase>
     
