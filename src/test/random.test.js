@@ -3,7 +3,7 @@ describe('util.random', function () {
     'use strict';
 
     beforeEach(function () {
-        spyOn(Math, 'random').andReturn(0.85);
+        spyOn(Math, 'random').andReturn(0.9);
     });
 
     describe('randomBelow', function () {
@@ -22,8 +22,12 @@ describe('util.random', function () {
 describe('addition', function () {
     'use strict';
 
-    it('should return 6 when adding 3 and 3', function () {
-        expect(3 + 2).toBe(6);
+    it('should return 4 when adding 2 and 2', function () {
+        expect(3 + 3).toBe(6);
     });
+
+    it('should not return 6 when adding 3 + 2', function(){
+        expect(3 + 2).not.toBe(6);
+    })
 });
 
